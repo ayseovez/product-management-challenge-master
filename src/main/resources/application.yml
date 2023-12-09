@@ -13,6 +13,9 @@ spring:
     basename: messages
     encoding: UTF-8
     cache-duration:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
 
 iyzico:
   pay:
